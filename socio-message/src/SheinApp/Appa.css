@@ -1,0 +1,52 @@
+/* File: src/App.css */
+
+/* Remove the default Vite styles by replacing the file content */
+
+.app-container {
+  max-width: 700px;
+  margin: 2rem auto; /* Center the container on the page */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden; /* Ensures the border radius applies to child elements */
+}
+
+.app-header {
+  background-color: #242424;
+  color: white;
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.list-view-container {
+  background-color: #ffffff;
+}
+
+.list-item {
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Remove the border from the very last item in the list */
+.list-item:last-child {
+  border-bottom: none;
+}
+
+.list-item:hover {
+  background-color: #fafafa; /* A subtle hover effect */
+}
+
+.item-text {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
