@@ -1,0 +1,19 @@
+GCP=>
+    build.gradle(app)..........................done
+    RestRepositoryImpl.java
+    WebSocketRepositoryImpl.java....done
+    PTLog.java
+    build.gradle (pocketalksdk).....done
+    SdkSettingsManager.java
+    ApiClient.java
+    Constants.java
+    GCPSecretManager.java
+    JWTManager.java
+    NotifyGCPObserver.java
+    TagUtil.java..............done..not required
+    ESWebApiClient.java...................done
+    VentanaWebApiClient.java
+    WebApiConstants.java
+    WebApiUtil.java
+
+
